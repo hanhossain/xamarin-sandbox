@@ -2,6 +2,7 @@ using System;
 using Foundation;
 using UIKit;
 using XamarinSandbox.iOS.Extensions;
+using XamarinSandbox.iOS.Views;
 
 namespace XamarinSandbox.iOS.ViewControllers
 {
@@ -12,13 +13,14 @@ namespace XamarinSandbox.iOS.ViewControllers
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
-            TableView.RegisterClassForCellReuse<UITableViewCell>(CellId);
+            TableView.RegisterClassForCellReuse<SubtitleTableViewCell>(CellId);
         }
 
         public override UITableViewCell GetCell(UITableView tableView, NSIndexPath indexPath)
         {
-            var cell = tableView.DequeueReusableCell(CellId, indexPath);
+            var cell = tableView.DequeueReusableCell<SubtitleTableViewCell>(CellId, indexPath);
             cell.TextLabel.Text = "Hello world";
+            cell.DetailTextLabel.Text = "This is some detail";
             return cell;
         }
 

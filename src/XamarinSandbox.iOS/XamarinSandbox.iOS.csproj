@@ -130,6 +130,7 @@
         <Compile Include="AppDelegate.cs" />
         <Compile Include="SceneDelegate.cs" />
         <Compile Include="ViewControllers\TableViewController.cs" />
+        <Compile Include="Views\SubtitleTableViewCell.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
