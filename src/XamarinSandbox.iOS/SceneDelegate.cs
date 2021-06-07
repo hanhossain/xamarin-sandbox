@@ -21,7 +21,7 @@ namespace XamarinSandbox.iOS
             {
                 Window = new UIWindow(windowScene)
                 {
-                    RootViewController = new TableViewController()
+                    RootViewController = new UINavigationController(new TableViewController())
                 };
                 Window.MakeKeyAndVisible();
             }

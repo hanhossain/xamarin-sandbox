@@ -128,6 +128,7 @@
         <Compile Include="Extensions\UITableViewExtensions.cs" />
         <Compile Include="Main.cs" />
         <Compile Include="AppDelegate.cs" />
+        <Compile Include="Models\Entry.cs" />
         <Compile Include="SceneDelegate.cs" />
         <Compile Include="ViewControllers\TableViewController.cs" />
         <Compile Include="Views\SubtitleTableViewCell.cs" />
