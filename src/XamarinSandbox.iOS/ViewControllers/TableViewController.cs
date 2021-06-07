@@ -3,7 +3,7 @@ using Foundation;
 using UIKit;
 using XamarinSandbox.iOS.Extensions;
 
-namespace XamarinSandbox.iOS
+namespace XamarinSandbox.iOS.ViewControllers
 {
     public class TableViewController : UITableViewController
     {
