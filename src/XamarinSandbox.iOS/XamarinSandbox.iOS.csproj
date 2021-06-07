@@ -125,9 +125,11 @@
         <None Include="Entitlements.plist" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Extensions\UITableViewExtensions.cs" />
         <Compile Include="Main.cs" />
         <Compile Include="AppDelegate.cs" />
         <Compile Include="SceneDelegate.cs" />
+        <Compile Include="TableViewController.cs" />
         <Compile Include="ViewController.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

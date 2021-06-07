@@ -1,5 +1,4 @@
-﻿using System;
-using Foundation;
+﻿using Foundation;
 using UIKit;
 
 namespace XamarinSandbox.iOS
@@ -21,7 +20,7 @@ namespace XamarinSandbox.iOS
             {
                 Window = new UIWindow(windowScene)
                 {
-                    RootViewController = new ViewController()
+                    RootViewController = new TableViewController()
                 };
                 Window.MakeKeyAndVisible();
             }
