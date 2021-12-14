@@ -2,8 +2,9 @@
     <PropertyGroup>
         <TargetFramework>net6.0-ios</TargetFramework>
         <OutputType>Exe</OutputType>
+        <SupportedOSPlatformVersion>15.0</SupportedOSPlatformVersion>
     </PropertyGroup>
     <ItemGroup>
-      <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+        <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
     </ItemGroup>
 </Project>
